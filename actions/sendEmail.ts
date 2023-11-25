@@ -5,7 +5,7 @@ import { Resend } from "resend";
 import { validateString, getErrorMessage } from "@/lib/utils";
 import ContactFormEmail from "@/email/contact-form-email";
 
-const resend = new Resend('re_CfWnXHoi_JACrunuTPEznM6kDtG5877DP');
+const resend = new Resend(process.env.email_api_key);
 
 export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("senderEmail");
