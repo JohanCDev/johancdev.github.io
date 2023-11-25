@@ -6,7 +6,7 @@ import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
 import Studies from "@/components/studies";
-import { studentProjectsData } from "@/lib/data";
+import { projectsData, studentProjectsData } from "@/lib/data";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <About />
       <Studies />
       <Experience />
-      <Projects />
+      <Projects projectsToDisplay={projectsData} title="Mes projets" />
       <Projects projectsToDisplay={studentProjectsData} title="Mes projets étudiants" />
       <Skills />
       <Contact />

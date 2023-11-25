@@ -6,7 +6,12 @@ import { projectsData } from "@/lib/data";
 import Project from "./project";
 import { useSectionInView } from "@/lib/hooks";
 
-export default function Projects({projectsToDisplay = projectsData, title = "Mes projets"}) {
+type Props = {
+  projectsToDisplay: typeof projectsData;
+  title: string;
+};
+
+export default function Projects({projectsToDisplay, title}: Props) {
   const { ref } = useSectionInView("Projets", 0.5);
 
   return (

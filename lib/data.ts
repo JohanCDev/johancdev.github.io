@@ -12,6 +12,7 @@ import bombermanImg from "@/public/bomberman.png";
 import rtypeImg from "@/public/rtype.png";
 import ftpImg from "@/public/Epitech.png";
 import nolosayImg from "@/public/nolosay.png";
+import { StaticImageData } from "next/image";
 
 export const links = [
   {
@@ -110,7 +111,14 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+type Project = {
+  title: string;
+  description: string;
+  tags: string[];
+  imageUrl: StaticImageData;
+};
+
+export const projectsData: Project[] = [
   {
     title: "Chouic",
     description:
@@ -139,9 +147,9 @@ export const projectsData = [
     tags: ["React-Native", "Communication", "Innovation"],
     imageUrl: nolosayImg,
   },
-] as const;
+]
 
-export const studentProjectsData = [
+export const studentProjectsData: Project[] = [
   {
     title: "MyRPG",
     description:
@@ -170,7 +178,7 @@ export const studentProjectsData = [
     tags: ["C++", "DevOps", "Gestion de projet"],
     imageUrl: rtypeImg,
   },
-] as const;
+]
 
 export const skillsData = [
   "HTML",
