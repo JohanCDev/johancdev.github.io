@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/C4E03AQFTmjSF4dWIKg/profile-displayphoto-shrink_400_400/0/1654025096667?e=1706140800&v=beta&t=UYSa-TLElXcb1iHRC4WVZXm2iY8x29xSEBg2S2-21ag"
+              src={"/profile_picture.jpeg"}
               alt="Johan portrait"
               width="240"
               height="240"

@@ -67,7 +67,8 @@ export const studiesData = [
     date: "2022-2023",
   },
   {
-    title: "4ème année Epitech Technology en échange à l'Université du Québec à Chicoutimi",
+    title:
+      "4ème année Epitech Technology en échange à l'Université du Québec à Chicoutimi",
     location: "Chicoutimi, Québec",
     description:
       "Année d'échange à l'UQAC. Découverte de nouvelles technologies et de nouvelles méthodologies de travail.",
@@ -136,7 +137,7 @@ export const projectsData: Project[] = [
   {
     title: "Doctolib",
     description:
-      "Lors de mon 3e stage, j'ai pu travailler chez Doctolib, dans l'équipe Customer Contact Support, j'ai travailler sur des fonctionnalités qui facilitent la communication entre les professionnels de santé et l'équipe support de Doctolib.",
+      "Lors de mon 3e stage, j'ai pu travailler chez Doctolib, dans l'équipe Customer Contact Support, j'ai travaillé sur des fonctionnalités qui facilitent la communication entre les professionnels de santé et l'équipe support de Doctolib.",
     tags: ["React", "Ruby on Rails", "Docker"],
     imageUrl: doctolibImg,
   },
@@ -147,7 +148,7 @@ export const projectsData: Project[] = [
     tags: ["React-Native", "Communication", "Innovation"],
     imageUrl: nolosayImg,
   },
-]
+];
 
 export const studentProjectsData: Project[] = [
   {
@@ -159,8 +160,7 @@ export const studentProjectsData: Project[] = [
   },
   {
     title: "My FTP",
-    description:
-      "Réalisation d'un serveur FTP en C.",
+    description: "Réalisation d'un serveur FTP en C.",
     tags: ["C", "Réseau"],
     imageUrl: ftpImg,
   },
@@ -178,7 +178,7 @@ export const studentProjectsData: Project[] = [
     tags: ["C++", "DevOps", "Gestion de projet"],
     imageUrl: rtypeImg,
   },
-]
+];
 
 export const skillsData = [
   "HTML",
