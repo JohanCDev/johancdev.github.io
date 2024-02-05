@@ -44,18 +44,12 @@ npm install
 To run the project in development mode:
 
 ```sh
-npm start
-```
-
-To run the project in production mode:
-
-```sh
-npm run build
+npm dev
 ```
 
 ## Deployment
 
-This project is deployed on github pages, you can find it [here](https://johancdev.github.io/johan-chrillesen-portfolio/).
+This project is deployed on Vercel, you can find it [here](https://portfolio-nine-rho-17.vercel.app).
 
 ## Contributing
 
