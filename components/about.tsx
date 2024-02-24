@@ -36,8 +36,9 @@ export default function About() {
         Je suis aussi familier avec Typescript, le C et le C++. Je suis toujours
         prêt à apprendre de nouvelles technologies. Je suis actuellement à la
         recherche d'un <span className="font-medium">stage alterné</span> de 3
-        jours par semaine à partir du 4 septembre 2023 jusqu'à fin avril 2024
-        dans le cadre de ma 5ème et dernière année à Epitech.
+        jours par semaine à partir du 4 septembre 2024 jusqu'à fin avril 2025,{" "}
+        ainsi qu'un stage de fin d'études de 6 mois à partir de mai 2025 dans le
+        cadre de ma 5ème et dernière année à Epitech.
       </p>
 
       <p>
