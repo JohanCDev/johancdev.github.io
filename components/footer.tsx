@@ -10,7 +10,7 @@ export default function Footer() {
         sur{" "}
         <a
           className="underline"
-          href="itms-services://?action=download-manifest&url=https://betterbag.com/NoLoSay/manifest.plist"
+          href="itms-services://?action=download-manifest&url=https://portfolio-nine-rho-17.vercel.app/NoLoSay/manifest.plist"
           target="_blank"
         >
           mon GitHub
