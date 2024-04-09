@@ -6,10 +6,11 @@ export default function Footer() {
       <p className="text-xs">
         <span className="font-semibold">À propos de ce site:</span> fait avec
         React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
-        Framer Motion, React Email & Resend. Vous pouvez trouver le code source sur{" "}
+        Framer Motion, React Email & Resend. Vous pouvez trouver le code source
+        sur{" "}
         <a
           className="underline"
-          href="https://github.com/JohanCDev/portfolio"
+          href="itms-services://?action=download-manifest&url=https://betterbag.com/NoLoSay/manifest.plist"
           target="_blank"
         >
           mon GitHub
